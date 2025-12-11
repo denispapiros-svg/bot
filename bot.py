@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 
 # Загрузка .env
-load_dotenv()
+load_dotenv(.env)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_IDS = os.getenv("ADMIN_IDS", "")
